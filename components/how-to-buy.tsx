@@ -1,0 +1,71 @@
+"use client"
+
+import { useState } from "react"
+import { Play, Menu } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Dialog, DialogContent } from "@/components/ui/dialog"
+import Image from "next/image"
+//import { NavigationMenu } from "../components/ui/navigation-menu";  // named import
+import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger, NavigationMenuContent, NavigationMenuLink } from "@/components/ui/navigation-menu";
+//import Menubar from "@/components/ui/menubar";
+export function HowToBuySection() {
+  
+  const [videoOpen, setVideoOpen] = useState(false)
+
+  return (
+    <section className="relative min-h-screen w-full flex flex-col hero">
+      
+      <div className="flex-grow flex items-center justify-center px-4 sm:px-6">
+        <div className="h-full-vh flex flex-col md:flex-row gap-4">
+          <div className="flex flex-col justify-center h-full w-full md:w-1/2 p-4 text-center animate-fadeIn">
+            <h1 className="mb-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+              <span className="text-primary">How to Buy</span>{" "}
+              <span className="text-white">$ANITA</span>
+            </h1>
+           
+          </div>
+
+          <div className="h-full-vh w-full md:w-1/2  p-4 mx-auto max-w-2xl overflow-hidden rounded-2xl bg-black/50 shadow-2xl animate-slideUp">
+            <div className="h-full-vh relative aspect-video w-full">
+              <Image
+                src="/images/how-to-buy-video.svg"
+                alt="How to buy"
+                layout="fill"
+                objectFit="contain"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60" />
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <button
+                  onClick={() => setVideoOpen(true)}
+                  className="group relative flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-full bg-primary transition-transform duration-300 hover:scale-110 mb-4"
+                >
+                  <Play className="h-8 w-8 sm:h-10 sm:w-10 text-white" />
+                  <div className="absolute -inset-1 animate-ping rounded-full bg-primary/20" />
+                </button>
+                <h2 className="text-xl sm:text-2xl font-bold text-white">WATCH NOW</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Dialog open={videoOpen} onOpenChange={setVideoOpen}>
+        <DialogContent className="max-w-4xl border-none bg-black p-0">
+          <div className="aspect-video w-full">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/bQyF321dVF8"
+              title="Anita AI Journey"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="aspect-video"
+            />
+          </div>
+        </DialogContent>
+      </Dialog>
+    </section>
+  )
+}
+
