@@ -37,7 +37,7 @@ function Navbar() {
       </div>
 
       <div className='block md:hidden'>
-        <img src="/iamges/menuButton.svg" alt="" />
+        <img src="/images/menuButton.svg" alt="" />
       </div>
 
       {/* <div className="flex-1">
