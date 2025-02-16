@@ -8,7 +8,7 @@ function Navbar() {
 
         <div className=''>
         <img
-              src="/svgIcons/logo.svg"  // Path to your logo image
+              src="/images/logo.png"  // Path to your logo image
               alt="Logo"
               className="md:w-[87px] w-[66px] md:h-[84px] h-[64px]"  // Ensure the logo fits within the container
             />
@@ -27,7 +27,7 @@ function Navbar() {
         </div>
 
         <div className='block md:hidden'>
-            <img src="/svgIcons/menuButton.svg" alt="" />
+            <img src="/iamges/menuButton.svg" alt="" />
         </div>
 
         {/* <div className="flex-1">

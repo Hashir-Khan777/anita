@@ -8,7 +8,7 @@ function Navbar() {
 
         <div className='shrink-0'>
         <img
-              src="/svgIcons/logo.svg"  // Path to your logo image
+              src="/images/logo.png"  // Path to your logo image
               alt="Logo"
               className="lg:w-[87px] md:w-[66px] w-[40px] lg:h-[84px] md:h-[64px]"  // Ensure the logo fits within the container
             />
@@ -28,7 +28,7 @@ function Navbar() {
         </div>
 
         <div className='block md:hidden'>
-            <img src="/svgIcons/menuButton.svg" alt="" />
+            <img src="/images/menuButton.svg" alt="" />
         </div>
 
         {/* <div className="flex-1">
