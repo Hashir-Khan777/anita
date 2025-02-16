@@ -8,7 +8,7 @@ import { UtilitySection } from "@/components/utility-section"
 import { PodcastSection } from "@/components/podcast-section"
 import { NewsletterForm } from "@/components/newsletter-form"
 import { Footer } from "@/components/footer"
-import Navbar from "@/components/ui/Navbar"
+import Navbar from "@/components/Navbar"
 import { BuySection } from "@/components/buy-section"
 
 export default function Home() {

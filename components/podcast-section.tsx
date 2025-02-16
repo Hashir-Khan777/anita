@@ -103,6 +103,7 @@ import { Play } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import Image from "next/image"
+import CustomButton from "./CustomButton"
 
 export function PodcastSection() {
   const [videoOpen, setVideoOpen] = useState(false)
@@ -124,10 +125,11 @@ export function PodcastSection() {
             <img src="/images/youtube-logo.svg" className="md:h-[55px] h-[28px] w-[92px]" alt="YouTube" />
           </p>
           <p className="text-gray-300 max-w-md">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-          <button className='capitalize lg:text-[20px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] h-[58px] w-[80%] md:w-[286px]'
+          {/* <button className='capitalize lg:text-[20px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] h-[58px] w-[80%] md:w-[286px]'
             style={{ background: "linear-gradient(135deg,#0d1407 50%,#6AB131)" }}>
             Chat with Me
-          </button>
+          </button> */}
+          <CustomButton link="/">Go Listen</CustomButton>
         </div>
 {/* 
         <div className="relative aspect-video w-full md:w-1/2 max-w-xl rounded-2xl object-cover bg-black/50 shadow-2xl overflow-hidden animate-slideUp">

@@ -13,13 +13,13 @@ export function Footer() {
               <Youtube className="w-8 h-8 text-white" />
             </Link> */}
             <Link href="https://instagram.com" target="_blank" className="transition-transform hover:scale-110">
-              <img src="./svgIcons/insta.svg" alt="" />
+              <img src="./images/insta.svg" alt="" />
             </Link>
             <Link href="https://x.com" target="_blank" className="transition-transform hover:scale-110">
-            <img src="./svgIcons/twitter.svg" alt="" />
+            <img src="./images/twitter.svg" alt="" />
             </Link>
             <Link href="https://youtube.com" target="_blank" className="transition-transform hover:scale-110">
-            <img src="./svgIcons/youtube.svg" alt="" />
+            <img src="./images/youtube.svg" alt="" />
             </Link>
           </div>
         </div>

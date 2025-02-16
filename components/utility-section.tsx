@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button"
 import { SectionHeader } from "@/components/ui/section-header"
 import { BulletPoint } from "@/components/ui/bullet-point"
 import { UtilityCard } from "@/components/ui/utility-card"
+import Link from "next/link"
+import CustomButton from "./CustomButton"
 
 export function UtilitySection() {
   return (
@@ -53,7 +55,7 @@ export function UtilitySection() {
             <span className="text-white">FUELING THE AI<br />REVOLUTION IN CRYPTO</span>
           </h2>
           <p className="mx-auto max-w-2xl text-base sm:text-lg text-gray-400">
-            The core if ANITA AI - Powering Rewards, Governance, and exclusive access.
+            The core of ANITA AI - Powering Rewards, Governance, and exclusive access.
 
           </p>
 
@@ -96,7 +98,22 @@ export function UtilitySection() {
         </div>
         </div>
       </div>
+      {/* <Link href="https://voice.itsanita.com" target="_blank" passHref>
       <Button className="w-[286px] h-[73px] font-fielder text-[20px]/[60px]">GET $ANITA</Button>
+      </Link>
+      */}
+      {/* <Link href="https://voice.itsanita.com" target="_blank" passHref legacyBehavior>
+        <a target="_blank">
+          <button className='font-fielder capitalize lg:text-[20px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] md:h-[55px] md:px-5  px-2'
+            style={{
+              background: "linear-gradient(135deg,#0d1407 50%,#6AB131)"
+            }}
+          >Get $Anita</button>
+          </a>
+        </Link> */}
+        <CustomButton link="https://voice.itsanita.com">Get $Anita</CustomButton>
+
+
 
     </section>
 

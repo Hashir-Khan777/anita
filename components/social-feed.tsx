@@ -1,7 +1,9 @@
 "use client"
+import Link from "next/link"
 
 import Image from "next/image"
 import { Badge, Home, Search, Bell, Mail } from "lucide-react"
+import CustomButton from "./CustomButton"
 
 interface Tweet {
   id: string
@@ -207,12 +209,12 @@ function TweetThread({ tweets }: { tweets: Tweet[] }) {
               <div className="flex-shrink-0">
                 <div className="relative">
                   <img
-                    src=  "/placeholder.svg"
+                    src="/placeholder.svg"
                     alt={tweet.username}
                     width={48}
                     height={48}
                     className="h-12 w-12 rounded-full object-cover"
-                    
+
                   />
                   <div className="absolute -inset-0.5 rounded-full bg-gradient-to-r from-[#6AB131] to-[#4a7a22] opacity-75 blur-sm"></div>
                   <div className="absolute -inset-0.5 rounded-full bg-black"></div>
@@ -229,11 +231,11 @@ function TweetThread({ tweets }: { tweets: Tweet[] }) {
                 <p className="mt-1 whitespace-pre-wrap text-[15px] text-white">
                   {tweet.highlight
                     ? tweet.text.split(" ").map((word, i) => (
-                        <span key={i} className={tweet.highlight?.includes(word) ? "text-[#6AB131]" : ""}>
-                          {i > 0 ? " " : ""}
-                          {word}
-                        </span>
-                      ))
+                      <span key={i} className={tweet.highlight?.includes(word) ? "text-[#6AB131]" : ""}>
+                        {i > 0 ? " " : ""}
+                        {word}
+                      </span>
+                    ))
                     : tweet.text}
                 </p>
                 <div className="mt-2 flex justify-between pr-8 text-gray-500">
@@ -315,11 +317,16 @@ export function SocialFeed() {
         <img src="/social-feed/chat3.svg" alt="" />
         <img src="/social-feed/chat4.svg" alt="" />
       </div>
-      <button className='capitalize lg:text-[20px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] h-[58px] w-[328px] md:w-[286px]'
+      {/* <Link href="https://voice.itsanita.com" target="_blank" passHref legacyBehavior className=" ">
+        <a target="_blank">
+          <button className='font-fielder capitalize lg:text-[20px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] md:h-[55px] md:px-5  px-2 md:w-[286px]'
             style={{
-                background:"linear-gradient(135deg,#0d1407 50%,#6AB131)"
+              background: "linear-gradient(135deg,#0d1407 50%,#6AB131)"
             }}
-            >Chat with Me</button>
+          >Chat with me</button>
+          </a>
+        </Link> */}
+        <CustomButton link="https://voice.itsanita.com">Chat with me</CustomButton>
 
       {/* Bottom Navigation */}
       {/* <div className="fixed bottom-0 left-0 right-0 flex justify-around border-t border-gray-800 bg-black/80 py-3 backdrop-blur">

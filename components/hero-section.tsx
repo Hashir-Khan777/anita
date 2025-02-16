@@ -5,6 +5,7 @@ import { Play, Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import Image from "next/image"
+import Link from "next/link";
 //import { NavigationMenu } from "../components/ui/navigation-menu";  // named import
 import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger, NavigationMenuContent, NavigationMenuLink } from "@/components/ui/navigation-menu";
 //import Menubar from "@/components/ui/menubar";
@@ -135,7 +136,7 @@ export function HeroSection() {
 
       <div className="flex md:flex-row flex-col items-center justify-center gap-5 md:justify-between md:px-10 px-5 py-10 w-ful">
         {/* Left Content */}
-        <div className="flex-1 md:text-start flex flex-col gap-5 md:items-start md:justify-start items-center justify-center text-center md:px-10 px-4 sm:mx-auto">
+        <div className=" flex-1 md:text-start flex flex-col gap-5 md:items-start md:justify-start items-center justify-center text-center md:px-10 px-4 sm:mx-auto">
           <h1 className="xl:text-[60px]/[60px] lg:text-[40px]/[40px] md:font-extrabold font-bold text-[20px]/[20px] leading-tight font-fielder">
             <span className="text-primary">$ANITA:</span>{" "}
             <span className="text-white">The First AI Crypto <br/> Influencer Taking Over the Digital Space</span>
@@ -143,7 +144,10 @@ export function HeroSection() {
           <p className="md:text-[28px]/[38px] text-[14px] text-gray-300">
             Blurring the Lines Between AI, Crypto, & Real-Time Engagement
           </p>
+          <Link href="https://voice.itsanita.com" target="_blank">
           <button className="md:text-[28px] text-[16px] bg-primary md:w-[225px] w-[180px] md:h-[73px] h-[50px] rounded-md shadow-lg font-fielder">Chat with me</button>
+          </Link>
+          
         </div>
 
         {/* Right Video Section */}
@@ -168,8 +172,8 @@ export function HeroSection() {
             </div>
           </div>
         </div> */}
-        <div className="h-full-vh w-full md:w-1/2  p-4 mx-auto max-w-2xl overflow-hidden rounded-2xl bg-black/50 shadow-2xl animate-slideUp">
-            <div className="h-full-vh relative aspect-video w-full">
+        <div className=" h-[446px] md:h-[700px] w-full md:w-1/2  p-4 mx-auto max-w-2xl overflow-hidden rounded-2xl bg-black/50 shadow-2xl animate-slideUp">
+            <div className="relative aspect-video w-full h-full">
               <Image
                 src="/images/hero_banner_video.svg"
                 alt="Anita AI Journey Video Thumbnail"
