@@ -61,16 +61,16 @@ export function EvolutionSection() {
         </div>
 
         {/* Timeline */}
-        <div className="relative">
+        <div className="relative px-2">
           {/* Timeline Line */}
-          <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary" />
+          <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary " />
 
           {timelineItems.map((item, index) => (
             <div
               key={index}
               className={`relative mb-16 ${index % 2 === 0 ? "pr-1/2" : "pl-1/2"} animate-slideUp`}
             >
-              <div className="flex flex-row items-start sm:items-center gap-4 px-2">
+              <div className="flex flex-row items-start sm:items-center gap-4 ">
                 <div className={`w-1/2 ${index % 2 === 0 ? "pr-8" : "pl-8 order-last"}`}>
                   <div className="relative h-[200px] w-full">
                     <img
@@ -82,10 +82,10 @@ export function EvolutionSection() {
                 <div className="absolute left-1/2 -translate-x-1/2">
                   <div className="h-3 w-3 rounded-full bg-primary" />
                 </div>
-                <div className={`w-1/2 ${index % 2 === 0 ? "pl-8" : "pr-8"}`}>
+                <div className={`w-1/2  ${index % 2 === 0 ? "pl-8" : "pr-8"}`}>
                   <h3 className="mb-2 text-xl font-bold text-primary">{item.date}</h3>
-                  <h4 className="mb-2 text-lg sm:text-xl font-bold text-white">{item.title}</h4>
-                  <p className="text-sm sm:text-base text-gray-400">{item.description}</p>
+                  <h4 className="mb-2 text-lg sm:text-xl font-bold text-white break-words hyphens-auto">{item.title}</h4>
+                  <p className="text-sm sm:text-base text-gray-400 break-words hyphens-auto">{item.description}</p>
                 </div>
               </div>
             </div>
