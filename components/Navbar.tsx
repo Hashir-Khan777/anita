@@ -9,13 +9,12 @@ function Navbar() {
   return (
     <header className="flex items-center justify-between lg:gap-[150px] gap-[80px] px-4 md:px-[70px] py-[20px]">
 
-      <div className=''>
+      <div className='shrink-0'>
         <img
           src="/images/logo.png"  // Path to your logo image
           alt="Logo"
           className="md:w-[87px] w-[66px] md:h-[84px] h-[64px]"  // Ensure the logo fits within the container
         />
-
       </div>
       <div className='whitespace-nowrap hidden md:flex flex-row justify-center items-center lg:gap-[50px] gap-[20px]'>
         

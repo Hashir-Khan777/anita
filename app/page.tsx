@@ -10,6 +10,8 @@ import { NewsletterForm } from "@/components/newsletter-form"
 import { Footer } from "@/components/footer"
 import Navbar from "@/components/Navbar"
 import { BuySection } from "@/components/buy-section"
+import MakingWaves from "@/components/Making-waves"
+import OurPartners from "@/components/OurPartners"
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <AboutSection />
       <UtilitySection />
       <HowToBuySection />
+      <MakingWaves/>
+      <OurPartners/>
       {/* <BuySection /> */}
       <EvolutionSection />  
       {/* <FuelingSection /> */}

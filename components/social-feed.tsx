@@ -314,8 +314,8 @@ export function SocialFeed() {
         <TweetThread tweets={tweetThread2} /> */}
         <img src="/social-feed/chat1.svg" alt="" />
         <img src="/social-feed/chat2.svg" alt="" />
-        <img src="/social-feed/chat3.svg" alt="" />
-        <img src="/social-feed/chat4.svg" alt="" />
+        <img src="/social-feed/chat3.svg" alt="" className="hidden md:block" />
+        <img src="/social-feed/chat4.svg" alt="" className="hidden md:block" />
       </div>
       {/* <Link href="https://voice.itsanita.com" target="_blank" passHref legacyBehavior className=" ">
         <a target="_blank">
