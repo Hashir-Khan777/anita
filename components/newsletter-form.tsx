@@ -45,7 +45,7 @@ export function NewsletterForm() {
             disabled={isSubmitting}
           >
             {/* {isSubmitting ? <Loader2 className="h-6 w-6 animate-spin" /> : <Send className="h-6 w-6" />} */}
-            <img src="./svgIcons/send.svg" alt="" />
+            <img src="./images/send.svg" alt="" />
           </button>
         </div>
       </form>
