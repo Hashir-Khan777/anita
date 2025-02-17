@@ -217,7 +217,7 @@ export function HeroSection() {
 
       <div className="w-full h-[10vh] flex flex-col gap-5 justify-center items-center text-center md:my-20 mb-10  font-fielder">
         <p className="uppercase md:text-[50px]/[50px] text-[34px]/[34px] font-extrabold text-primary">Real-time <br /> Connection</p>
-        <img src="/svgIcons/herobuttons.svg" alt="" className="md:w-[296px] w-[157px]" />
+        <img src="./images/herobuttons.svg" alt="" className="md:w-[296px] w-[157px]" />
       </div>
 
       {/* ===== Hero Section End here ===== */}

@@ -70,7 +70,7 @@ export function EvolutionSection() {
               key={index}
               className={`relative mb-16 ${index % 2 === 0 ? "pr-1/2" : "pl-1/2"} animate-slideUp`}
             >
-              <div className="flex flex-row items-start sm:items-center gap-4">
+              <div className="flex flex-row items-start sm:items-center gap-4 px-2">
                 <div className={`w-1/2 ${index % 2 === 0 ? "pr-8" : "pl-8 order-last"}`}>
                   <div className="relative h-[200px] w-full">
                     <img

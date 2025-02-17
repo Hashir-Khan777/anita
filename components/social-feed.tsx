@@ -307,6 +307,7 @@ function TweetThread({ tweets }: { tweets: Tweet[] }) {
 export function SocialFeed() {
   return (
     <div className="px-10 py-10 mt-10 flex flex-col gap-10 justify-center items-center bg-black text-left">
+      
       <div className="grid lg:grid-cols-4 grid-cols-2 gap-5">
         {/* <TweetThread tweets={tweetThread1} />
         <TweetThread tweets={tweetThread2} />
