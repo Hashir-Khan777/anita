@@ -1,41 +1,66 @@
-import React from 'react'
-import { Play, Menu } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import Link from 'next/link'
-import '@/styles/globals.css'; // Ensure global styles are loaded
-
+import React from "react";
+import { Play, Menu } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import "@/styles/globals.css"; // Ensure global styles are loaded
 
 function Navbar() {
   return (
     <header className="flex items-center justify-between lg:gap-[150px] gap-[80px] px-4 md:px-[70px] py-[20px]">
-
-      <div className='shrink-0'>
+      <div className="shrink-0">
         <img
-          src="/images/logo.png"  // Path to your logo image
+          src="/images/logo.png" // Path to your logo image
           alt="Logo"
-          className="md:w-[87px] w-[66px] md:h-[84px] h-[64px]"  // Ensure the logo fits within the container
+          className="md:w-[87px] w-[66px] md:h-[84px] h-[64px]" // Ensure the logo fits within the container
         />
       </div>
-      <div className='whitespace-nowrap hidden md:flex flex-row justify-center items-center lg:gap-[50px] gap-[20px]'>
-        
-        <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>Token</Link>
+      <div className="whitespace-nowrap hidden md:flex flex-row justify-center items-center lg:gap-[50px] gap-[20px]">
+        {/* <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>Token</Link>
         <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>About Anita</Link>
         <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>Partners</Link>
-        <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>Press coverages</Link>
-
-        <Link href="https://voice.itsanita.com" target="_blank" passHref legacyBehavior>
-        <a target="_blank">
-          <button className='font-fielder capitalize lg:text-[20px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] md:h-[55px] md:px-5  px-2'
-            style={{
-              background: "linear-gradient(135deg,#0d1407 50%,#6AB131)"
-            }}
-          >Start conversation with $Anita</button>
-          </a>
+        <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>Press coverages</Link> */}
+        <Link
+          href="https://www.instagram.com/itsanitaai/"
+          target="_blank"
+          className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
+        >
+          <img src="./images/insta.svg" alt="" />
+        </Link>
+        <Link
+          href="https://x.com/itsanita_ai"
+          target="_blank"
+          className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
+        >
+          <img src="./images/twitter.svg" alt="" />
+        </Link>
+        <Link
+          href="https://www.youtube.com/@itsAnitaAI"
+          target="_blank"
+          className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
+        >
+          <img src="./images/youtube.svg" alt="" />
         </Link>
 
+        <Link
+          href="https://voice.itsanita.com"
+          target="_blank"
+          passHref
+          legacyBehavior
+        >
+          <a target="_blank">
+            <button
+              className="font-fielder capitalize lg:text-[20px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] md:h-[55px] md:px-5  px-2"
+              style={{
+                background: "linear-gradient(135deg,#0d1407 50%,#6AB131)",
+              }}
+            >
+              Start conversation with $Anita
+            </button>
+          </a>
+        </Link>
       </div>
 
-      <div className='block md:hidden'>
+      <div className="block md:hidden">
         <img src="/images/menuButton.svg" alt="" />
       </div>
 
@@ -59,7 +84,7 @@ function Navbar() {
           </Button>
         </div> */}
     </header>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

@@ -12,13 +12,13 @@ export function Footer() {
             {/* <Link href="https://youtube.com" target="_blank" className="transition-transform hover:scale-110">
               <Youtube className="w-8 h-8 text-white" />
             </Link> */}
-            <Link href="https://instagram.com" target="_blank" className="transition-transform hover:scale-110">
+            <Link href="https://www.instagram.com/itsanitaai/" target="_blank" className="transition-transform hover:scale-110">
               <img src="./images/insta.svg" alt="" />
             </Link>
-            <Link href="https://x.com" target="_blank" className="transition-transform hover:scale-110">
+            <Link href="https://x.com/itsanita_ai" target="_blank" className="transition-transform hover:scale-110">
             <img src="./images/twitter.svg" alt="" />
             </Link>
-            <Link href="https://youtube.com" target="_blank" className="transition-transform hover:scale-110">
+            <Link href="https://www.youtube.com/@itsAnitaAI" target="_blank" className="transition-transform hover:scale-110">
             <img src="./images/youtube.svg" alt="" />
             </Link>
           </div>

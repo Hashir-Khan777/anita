@@ -129,7 +129,7 @@ export function PodcastSection() {
             style={{ background: "linear-gradient(135deg,#0d1407 50%,#6AB131)" }}>
             Chat with Me
           </button> */}
-          <CustomButton link="/">Go Listen</CustomButton>
+          <CustomButton link="https://www.youtube.com/@itsAnitaAI">Go Listen</CustomButton>
         </div>
 {/* 
         <div className="relative aspect-video w-full md:w-1/2 max-w-xl rounded-2xl object-cover bg-black/50 shadow-2xl overflow-hidden animate-slideUp">

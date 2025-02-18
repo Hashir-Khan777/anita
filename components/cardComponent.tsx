@@ -76,10 +76,10 @@ import Link from "next/link";
 //     cards: CardProps[];
 // }
 
-const CardComponent = ({ cards }) => {
+const CardComponent = ({ cards }: any) => {
     return (
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 px-4">
-            {cards.map((card) => (
+            {cards.map((card: any) => (
                 <div
                     key={card.id}
                     className="w-full max-w-[350px] md:max-w-[380px] lg:max-w-[400px] mx-auto bg-gradient-to-b from-[#6ab130] to-[#2b4f1d] rounded-xl shadow-lg p-4 pb-10 text-black flex flex-col gap-5"
@@ -102,7 +102,7 @@ const CardComponent = ({ cards }) => {
                             {card.location} <br />
                             {card.date}
                         </p>
-                        <Link href="#" className="text-black underline sm:text-[20px]/[15px] text-[13px]/[15px] font-bold mt-3 block">
+                        <Link target="_blank" href={`${card?.link}`} className="text-black underline sm:text-[20px]/[15px] text-[13px]/[15px] font-bold mt-3 block">
                             {card.btnText}
                         </Link>
                     </div>
