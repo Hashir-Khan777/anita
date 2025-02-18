@@ -10,7 +10,7 @@ const cardData = [
         title: "ANITA AI: THE FIRST AI-DRIVEN INFLUENCER LAUNCHES HER OWN TOKEN, $ANITA",
         location: "Dubai, UAE",
         date: "9th December 2024, Chainwire",
-        imageUrl: "./images/makewavesCard1.png", // Replace with actual image
+        imageUrl: "/images/makewavesCard1.png", // Replace with actual image
         btnText: "Read More",
         link: "https://cointelegraph.com/press-releases/anita-ai-the-first-ai-driven-influencer-launches-her-own-token-anita"
     },

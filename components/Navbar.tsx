@@ -6,20 +6,65 @@ import "@/styles/globals.css"; // Ensure global styles are loaded
 
 function Navbar() {
   return (
-    <header className="flex items-center justify-between lg:gap-[150px] gap-[80px] px-4 md:px-[70px] py-[20px]">
+    <header className="flex items-center justify-between px-4 md:px-[70px] py-[20px]">
       <div className="shrink-0">
         <img
           src="/images/logo.png" // Path to your logo image
           alt="Logo"
-          className="md:w-[87px] w-[66px] md:h-[84px] h-[64px]" // Ensure the logo fits within the container
+          className="md:w-[67px] w-[66px] md:h-[64px] h-[64px]" // Ensure the logo fits within the container
         />
       </div>
-      <div className="whitespace-nowrap hidden md:flex flex-row justify-center items-center lg:gap-[50px] gap-[20px]">
-        {/* <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>Token</Link>
-        <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>About Anita</Link>
-        <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>Partners</Link>
-        <Link href='/' className='list-none lg:text-[20px] text-[14px] font-bold font-fielder'>Press coverages</Link> */}
+      <div className="whitespace-nowrap hidden xl:flex flex-row justify-center items-center lg:gap-[20px] gap-[20px]">
         <Link
+          target="_blank"
+          href="https://www.instagram.com/itsanitaai/"
+          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+        >
+          Instagram
+        </Link>
+        <Link
+          target="_blank"
+          href="https://www.tiktok.com/@itsanitaai"
+          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+        >
+          TikTok
+        </Link>
+        <Link
+          target="_blank"
+          href="https://www.youtube.com/@itsAnitaAI"
+          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+        >
+          YouTube
+        </Link>
+        <Link
+          target="_blank"
+          href="https://open.spotify.com/show/0JcTw3Af1g6gCjxUqJXskW?si=nj2Ld9qdTlGHHMG135PKJg&fbclid=PAZXh0bgNhZW0CMTEAAabqEpe9KEdCN8Xk87EeDDu5dJ2hH7ZCD9nqVju4zUEZZEtNVWAKkWbl6AU_aem_n5cGTnS17vcKEjLUjfCbsA&nd=1&dlsi=f3b2245565464888"
+          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+        >
+          Spotify
+        </Link>
+        <Link
+          target="_blank"
+          href="https://www.dextools.io/app/en/token/anitaai"
+          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+        >
+          Dextools
+        </Link>
+        <Link
+          target="_blank"
+          href="https://dexscreener.com/solana/2xrl1b4zmjygtrqj6faexea9uhjw1wqvgs6evvyy26nq"
+          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+        >
+          Dexscreener
+        </Link>
+        <Link
+          target="_blank"
+          href="https://whitepaper.itsanita.com"
+          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+        >
+          Whitepaper
+        </Link>
+        {/* <Link
           href="https://www.instagram.com/itsanitaai/"
           target="_blank"
           className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
@@ -39,7 +84,7 @@ function Navbar() {
           className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
         >
           <img src="./images/youtube.svg" alt="" />
-        </Link>
+        </Link> */}
 
         <Link
           href="https://voice.itsanita.com"
@@ -49,7 +94,7 @@ function Navbar() {
         >
           <a target="_blank">
             <button
-              className="font-fielder capitalize lg:text-[20px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] md:h-[55px] md:px-5  px-2"
+              className="font-fielder capitalize lg:text-[15px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] md:h-[55px] md:px-3  px-2"
               style={{
                 background: "linear-gradient(135deg,#0d1407 50%,#6AB131)",
               }}
@@ -60,7 +105,7 @@ function Navbar() {
         </Link>
       </div>
 
-      <div className="block md:hidden">
+      <div className="block xl:hidden">
         <img src="/images/menuButton.svg" alt="" />
       </div>
 
