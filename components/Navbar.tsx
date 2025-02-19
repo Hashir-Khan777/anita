@@ -14,55 +14,52 @@ function Navbar() {
           className="md:w-[67px] w-[66px] md:h-[64px] h-[64px]" // Ensure the logo fits within the container
         />
       </div>
-      <div className="whitespace-nowrap hidden xl:flex flex-row justify-center items-center lg:gap-[20px] gap-[20px]">
+      <div className="whitespace-nowrap hidden lg:flex flex-row justify-center items-center lg:gap-[35px] gap-[20px]">
         <Link
           target="_blank"
           href="https://www.instagram.com/itsanitaai/"
-          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+          className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          Instagram
+          <img className="w-full h-full" src="./images/insta.svg" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://www.tiktok.com/@itsanitaai"
-          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+          className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          TikTok
+          <img className="w-full h-full" src="./images/tiktok.png" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://www.youtube.com/@itsAnitaAI"
-          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+          className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          YouTube
+          <img className="w-full h-full" src="./images/youtube.svg" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://open.spotify.com/show/0JcTw3Af1g6gCjxUqJXskW?si=nj2Ld9qdTlGHHMG135PKJg&fbclid=PAZXh0bgNhZW0CMTEAAabqEpe9KEdCN8Xk87EeDDu5dJ2hH7ZCD9nqVju4zUEZZEtNVWAKkWbl6AU_aem_n5cGTnS17vcKEjLUjfCbsA&nd=1&dlsi=f3b2245565464888"
-          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+          className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          Spotify
+          <img className="w-full h-full" src="./images/spotify.png" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://www.dextools.io/app/en/token/anitaai"
-          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+          className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          Dextools
+          <img className="w-full h-full" src="./images/dextools.png" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://dexscreener.com/solana/2xrl1b4zmjygtrqj6faexea9uhjw1wqvgs6evvyy26nq"
-          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
+          className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          Dexscreener
-        </Link>
-        <Link
-          target="_blank"
-          href="https://whitepaper.itsanita.com"
-          className="list-none lg:text-[15px] text-[14px] font-bold font-fielder"
-        >
-          Whitepaper
+          <img
+            className="w-full h-full"
+            src="./images/dexscreener.svg"
+            alt=""
+          />
         </Link>
         {/* <Link
           href="https://www.instagram.com/itsanitaai/"
@@ -105,7 +102,7 @@ function Navbar() {
         </Link>
       </div>
 
-      <div className="block xl:hidden">
+      <div className="block lg:hidden">
         <img src="/images/menuButton.svg" alt="" />
       </div>
 

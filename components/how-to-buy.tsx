@@ -7,6 +7,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog"
 import Image from "next/image"
 //import { NavigationMenu } from "../components/ui/navigation-menu";  // named import
 import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger, NavigationMenuContent, NavigationMenuLink } from "@/components/ui/navigation-menu";
+import CustomButton from "./CustomButton"
 //import Menubar from "@/components/ui/menubar";
 export function HowToBuySection() {
   
@@ -51,6 +52,10 @@ export function HowToBuySection() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="flex flex-col gap-10 justify-center items-center my-7">
+        <CustomButton link="https://voice.itsanita.com">Get $Anita</CustomButton>
       </div>
 
       <Dialog open={videoOpen} onOpenChange={setVideoOpen}>

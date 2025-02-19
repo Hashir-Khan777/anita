@@ -111,7 +111,7 @@ export function UtilitySection() {
           >Get $Anita</button>
           </a>
         </Link> */}
-        <CustomButton link="https://voice.itsanita.com">Get $Anita</CustomButton>
+        {/* <CustomButton link="https://voice.itsanita.com">Get $Anita</CustomButton> */}
 
 
 
