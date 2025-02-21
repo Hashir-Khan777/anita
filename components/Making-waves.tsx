@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"; // Adjust the import path if needed
 import { Button } from "@/components/ui/button"; // If you are using a button component
 import CardComponent from './cardComponent';
-import { Slider } from '@radix-ui/react-slider';
+// import Slider from './Sider';
 
 const cardData = [
     {
@@ -15,7 +15,7 @@ const cardData = [
         link: "https://cointelegraph.com/press-releases/anita-ai-the-first-ai-driven-influencer-launches-her-own-token-anita"
     },
     {
-        id: 1,
+        id: 2,
         title: "ANITA AI: THE FIRST AI-DRIVEN INFLUENCER LAUNCHES HER OWN TOKEN, $ANITA",
         location: "Dubai, UAE",
         date: "9th December 2024, Chainwire",
@@ -24,7 +24,7 @@ const cardData = [
         link: "https://decrypt.co/295594/anita-ai-the-first-ai-driven-influencer-launches-her-own-token-anita"
     },
     {
-        id: 1,
+        id: 3,
         title: "ANITA AI: THE FIRST AI-DRIVEN INFLUENCER LAUNCHES HER OWN TOKEN, $ANITA",
         location: "Dubai, UAE",
         date: "9th December 2024, Chainwire",
@@ -45,12 +45,12 @@ function MakingWaves() {
 
                 </div>
 
-                <div className=''>
+                <div>
                     <CardComponent cards={cardData} />
                 </div>
 
                 {/* <div className='md:hidden block'>
-                    <Slider />
+                    <Slider cards={cardData} />
                 </div> */}
 
             </div>
