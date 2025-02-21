@@ -65,6 +65,13 @@ function Navbar() {
             alt=""
           />
         </Link>
+        <Link
+          target="_blank"
+          href="https://x.com/itsanita_ai"
+          className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
+        >
+          <img className="w-full h-full" src="./images/twitter.png" alt="" />
+        </Link>
         {/* <Link
           href="https://www.instagram.com/itsanitaai/"
           target="_blank"
@@ -201,6 +208,17 @@ function Navbar() {
               <img
                 className="w-full h-full"
                 src="./images/dexscreener.svg"
+                alt=""
+              />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://x.com/itsanita_ai"
+              className="list-none w-[55px] font-bold font-fielder"
+            >
+              <img
+                className="w-full h-full"
+                src="./images/twitter.png"
                 alt=""
               />
             </Link>
