@@ -18,7 +18,7 @@ const timelineItems = [
     alt: "Megaphone",
   },
   {
-    date: "Q4 2024",
+    date: "Q2 2025",
     title: "CEX PARTNERSHIPS & GOVERNANCE PROPOSALS",
     description:
       "Major exchange listings unlock new opportunities, and governance proposals give the community a say in Anita's evolution.",
