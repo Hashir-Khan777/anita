@@ -80,37 +80,39 @@ const MySwiperComponent = ({ cards }: any) => {
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {cards.map((card: any, index: any) => (
-          <div
-            key={index}
-            className="w-full mx-auto bg-gradient-to-b from-[#6ab130] to-[#2b4f1d] rounded-xl shadow-lg p-4 pb-10 text-black flex flex-col gap-5 flex-shrink-0"
-          >
-            {/* Image Section */}
-            <div className="rounded-lg overflow-hidden">
-              <div className="w-full h-[250px] md:h-[300px] lg:h-[350px]">
-                <img
-                  src={card.imageUrl}
-                  alt={card.title}
-                  className="w-full h-full object-cover rounded-lg"
-                />
+          <div className="w-full flex-shrink-0">
+            <div
+              key={index}
+              className="w-full max-w-[350px] mx-auto bg-gradient-to-b from-[#6ab130] to-[#2b4f1d] rounded-xl shadow-lg p-4 pb-10 text-black flex flex-col gap-5 flex-shrink-0"
+            >
+              {/* Image Section */}
+              <div className="rounded-lg overflow-hidden">
+                <div className="w-full h-[250px] md:h-[300px] lg:h-[350px]">
+                  <img
+                    src={card.imageUrl}
+                    alt={card.title}
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                </div>
               </div>
-            </div>
 
-            {/* Content Section */}
-            <div className="mt-4 text-black flex flex-col sm:gap-5 gap-2">
-              <h3 className="font-bold sm:text-[30px]/[30px] text-[15px]/[15px] leading-tight">
-                {card.title}
-              </h3>
-              <p className="md:text-[22px]/[30px] text-[14px]/[20px] mt-2 opacity-80">
-                {card.location} <br />
-                {card.date}
-              </p>
-              <a
-                target="_blank"
-                href={`${card?.link}`}
-                className="text-black underline sm:text-[20px]/[15px] text-[13px]/[15px] font-bold mt-3 block"
-              >
-                {card.btnText}
-              </a>
+              {/* Content Section */}
+              <div className="mt-4 text-black flex flex-col sm:gap-5 gap-2">
+                <h3 className="font-bold sm:text-[30px]/[30px] text-[15px]/[15px] leading-tight">
+                  {card.title}
+                </h3>
+                <p className="md:text-[22px]/[30px] text-[14px]/[20px] mt-2 opacity-80">
+                  {card.location} <br />
+                  {card.date}
+                </p>
+                <a
+                  target="_blank"
+                  href={`${card?.link}`}
+                  className="text-black underline sm:text-[20px]/[15px] text-[13px]/[15px] font-bold mt-3 block"
+                >
+                  {card.btnText}
+                </a>
+              </div>
             </div>
           </div>
         ))}
