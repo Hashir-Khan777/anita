@@ -24,7 +24,7 @@ function Navbar() {
             style={{
                 background:"linear-gradient(135deg,#0d1407 50%,#6AB131)"
             }}
-            >Start conversation with $Anita</button>
+            >Start conversation with $Anita AI</button>
         </div>
 
         <div className='block md:hidden'>

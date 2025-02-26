@@ -107,7 +107,7 @@ function Navbar() {
                 background: "linear-gradient(135deg,#0d1407 50%,#6AB131)",
               }}
             >
-              Start conversation with $Anita
+              Start conversation with $Anita AI
             </button>
           </a>
         </Link>
@@ -257,7 +257,7 @@ function Navbar() {
                     background: "linear-gradient(135deg,#0d1407 50%,#6AB131)",
                   }}
                 >
-                  Start conversation with $Anita
+                  Start conversation with $Anita AI
                 </button>
               </a>
             </Link>
