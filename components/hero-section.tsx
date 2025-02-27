@@ -204,7 +204,7 @@ export function HeroSection() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/bQyF321dVF8"
+              src="https://youtube.com/shorts/uWS6Tq4v4sY?si=A9QNqSpe2Vy-ovhW"
               title="Anita AI Journey"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
