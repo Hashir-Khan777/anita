@@ -1,17 +1,24 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Play, Menu } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Dialog, DialogContent } from "@/components/ui/dialog"
-import Image from "next/image"
+import { useState } from "react";
+import { Play, Menu } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
+import Image from "next/image";
 import Link from "next/link";
 //import { NavigationMenu } from "../components/ui/navigation-menu";  // named import
-import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger, NavigationMenuContent, NavigationMenuLink } from "@/components/ui/navigation-menu";
+import {
+  NavigationMenu,
+  NavigationMenuList,
+  NavigationMenuItem,
+  NavigationMenuTrigger,
+  NavigationMenuContent,
+  NavigationMenuLink,
+} from "@/components/ui/navigation-menu";
 //import Menubar from "@/components/ui/menubar";
 
 export function HeroSection() {
-  const [videoOpen, setVideoOpen] = useState(false)
+  const [videoOpen, setVideoOpen] = useState(false);
 
   return (
     <section className="relative min-h-screen w-full flex flex-col gap-5 hero">
@@ -92,7 +99,6 @@ export function HeroSection() {
 
       {/* ===== Header End here ===== */}
 
-
       {/* ===== Hero Section start here ===== */}
       {/* <div className="flex-grow flex items-center justify-center px-10 sm:px-6">
         <div className="h-full-vh flex flex-col md:flex-row gap-4">
@@ -139,15 +145,19 @@ export function HeroSection() {
         <div className=" flex-1 md:text-start flex flex-col gap-5 md:items-start md:justify-start items-center justify-center text-center md:px-10 px-4 sm:mx-auto">
           <h1 className="xl:text-[60px]/[60px] lg:text-[40px]/[40px] md:font-extrabold font-bold text-[20px]/[20px] leading-tight font-fielder">
             <span className="text-primary">$ANITA:</span>{" "}
-            <span className="text-white">The First AI Crypto <br/> Influencer Taking Over the Digital Space</span>
+            <span className="text-white">
+              The First AI Crypto <br /> Influencer Taking Over the Digital
+              Space
+            </span>
           </h1>
           <p className="md:text-[28px]/[38px] text-[14px] text-gray-300">
             Blurring the Lines Between AI, Crypto, & Real-Time Engagement
           </p>
           <Link href="https://voice.itsanita.com" target="_blank">
-          <button className="md:text-[28px] text-[16px] bg-primary md:w-[225px] w-[180px] md:h-[73px] h-[50px] rounded-md shadow-lg font-fielder">Chat with me</button>
+            <button className="md:text-[28px] text-[16px] bg-primary md:w-[225px] w-[180px] md:h-[73px] h-[50px] rounded-md shadow-lg font-fielder">
+              Chat with me
+            </button>
           </Link>
-          
         </div>
 
         {/* Right Video Section */}
@@ -173,29 +183,30 @@ export function HeroSection() {
           </div>
         </div> */}
         <div className=" h-[446px] md:h-[700px] w-full md:w-1/2  p-4 mx-auto max-w-2xl overflow-hidden rounded-2xl bg-black/50 shadow-2xl animate-slideUp">
-            <div className="relative aspect-video w-full h-full">
-              <Image
-                src="/images/hero_banner_video.svg"
-                alt="Anita AI Journey Video Thumbnail"
-                layout="fill"
-                objectFit="contain"
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60" />
-              <div className="absolute inset-0 flex flex-col items-center md:justify-center justify-end md:mb-0 mb-10">
-                <button
-                  onClick={() => setVideoOpen(true)}
-                  className="group relative flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-full bg-primary transition-transform duration-300 hover:scale-110 mb-4"
-                >
-                  <Play className="h-8 w-8 sm:h-10 sm:w-10 text-white" />
-                  <div className="absolute -inset-1 animate-ping rounded-full bg-primary/20" />
-                </button>
-                <h2 className="text-xl sm:text-2xl font-bold text-white text-center">WATCH MY<br/>JOURNEY UNFOLD</h2>
-              </div>
+          <div className="relative aspect-video w-full h-full">
+            <Image
+              src="/images/hero_banner_video.svg"
+              alt="Anita AI Journey Video Thumbnail"
+              layout="fill"
+              objectFit="contain"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60" />
+            <div className="absolute inset-0 flex flex-col items-center md:justify-center justify-end md:mb-0 mb-10">
+              <button
+                onClick={() => setVideoOpen(true)}
+                className="group relative flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-full bg-primary transition-transform duration-300 hover:scale-110 mb-4"
+              >
+                <Play className="h-8 w-8 sm:h-10 sm:w-10 text-white" />
+                <div className="absolute -inset-1 animate-ping rounded-full bg-primary/20" />
+              </button>
+              <h2 className="text-xl sm:text-2xl font-bold text-white text-center">
+                WATCH MY
+                <br />
+                JOURNEY UNFOLD
+              </h2>
             </div>
           </div>
-
-
-
+        </div>
       </div>
 
       <Dialog open={videoOpen} onOpenChange={setVideoOpen}>
@@ -216,12 +227,17 @@ export function HeroSection() {
       </Dialog>
 
       <div className="w-full h-[10vh] flex flex-col gap-5 justify-center items-center text-center md:my-20 mb-10  font-fielder">
-        <p className="uppercase md:text-[50px]/[50px] text-[34px]/[34px] font-extrabold text-primary">Real-time <br /> Connection</p>
-        <img src="./images/herobuttons.svg" alt="" className="md:w-[296px] w-[157px]" />
+        <p className="uppercase md:text-[50px]/[50px] text-[34px]/[34px] font-extrabold text-primary">
+          Real-time <br /> Connection
+        </p>
+        <img
+          src="/images/herobuttons.svg"
+          alt=""
+          className="md:w-[296px] w-[157px]"
+        />
       </div>
 
       {/* ===== Hero Section End here ===== */}
     </section>
-  )
+  );
 }
-

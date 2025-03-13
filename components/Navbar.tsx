@@ -24,74 +24,70 @@ function Navbar() {
           href="https://www.instagram.com/itsanitaai/"
           className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          <img className="w-full h-full" src="./images/insta.svg" alt="" />
+          <img className="w-full h-full" src="/images/insta.svg" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://www.tiktok.com/@itsanitaai"
           className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          <img className="w-full h-full" src="./images/tiktok.png" alt="" />
+          <img className="w-full h-full" src="/images/tiktok.png" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://www.youtube.com/@itsAnitaAI"
           className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          <img className="w-full h-full" src="./images/youtube.svg" alt="" />
+          <img className="w-full h-full" src="/images/youtube.svg" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://open.spotify.com/show/0JcTw3Af1g6gCjxUqJXskW?si=nj2Ld9qdTlGHHMG135PKJg&fbclid=PAZXh0bgNhZW0CMTEAAabqEpe9KEdCN8Xk87EeDDu5dJ2hH7ZCD9nqVju4zUEZZEtNVWAKkWbl6AU_aem_n5cGTnS17vcKEjLUjfCbsA&nd=1&dlsi=f3b2245565464888"
           className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          <img className="w-full h-full" src="./images/spotify.png" alt="" />
+          <img className="w-full h-full" src="/images/spotify.png" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://www.dextools.io/app/en/token/anitaai"
           className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          <img className="w-full h-full" src="./images/dextools.png" alt="" />
+          <img className="w-full h-full" src="/images/dextools.png" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://dexscreener.com/solana/2xrl1b4zmjygtrqj6faexea9uhjw1wqvgs6evvyy26nq"
           className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          <img
-            className="w-full h-full"
-            src="./images/dexscreener.svg"
-            alt=""
-          />
+          <img className="w-full h-full" src="/images/dexscreener.svg" alt="" />
         </Link>
         <Link
           target="_blank"
           href="https://x.com/itsanita_ai"
           className="list-none lg:w-[55px] w-[14px] font-bold font-fielder"
         >
-          <img className="w-full h-full" src="./images/twitter.png" alt="" />
+          <img className="w-full h-full" src="/images/twitter.png" alt="" />
         </Link>
         {/* <Link
           href="https://www.instagram.com/itsanitaai/"
           target="_blank"
           className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
         >
-          <img src="./images/insta.svg" alt="" />
+          <img src="/images/insta.svg" alt="" />
         </Link>
         <Link
           href="https://x.com/itsanita_ai"
           target="_blank"
           className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
         >
-          <img src="./images/twitter.svg" alt="" />
+          <img src="/images/twitter.svg" alt="" />
         </Link>
         <Link
           href="https://www.youtube.com/@itsAnitaAI"
           target="_blank"
           className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
         >
-          <img src="./images/youtube.svg" alt="" />
+          <img src="/images/youtube.svg" alt="" />
         </Link> */}
 
         <Link
@@ -158,36 +154,28 @@ function Navbar() {
               href="https://www.instagram.com/itsanitaai/"
               className="list-none w-[55px] font-bold font-fielder"
             >
-              <img className="w-full h-full" src="./images/insta.svg" alt="" />
+              <img className="w-full h-full" src="/images/insta.svg" alt="" />
             </Link>
             <Link
               target="_blank"
               href="https://www.tiktok.com/@itsanitaai"
               className="list-none w-[55px] font-bold font-fielder"
             >
-              <img className="w-full h-full" src="./images/tiktok.png" alt="" />
+              <img className="w-full h-full" src="/images/tiktok.png" alt="" />
             </Link>
             <Link
               target="_blank"
               href="https://www.youtube.com/@itsAnitaAI"
               className="list-none w-[55px] font-bold font-fielder"
             >
-              <img
-                className="w-full h-full"
-                src="./images/youtube.svg"
-                alt=""
-              />
+              <img className="w-full h-full" src="/images/youtube.svg" alt="" />
             </Link>
             <Link
               target="_blank"
               href="https://open.spotify.com/show/0JcTw3Af1g6gCjxUqJXskW?si=nj2Ld9qdTlGHHMG135PKJg&fbclid=PAZXh0bgNhZW0CMTEAAabqEpe9KEdCN8Xk87EeDDu5dJ2hH7ZCD9nqVju4zUEZZEtNVWAKkWbl6AU_aem_n5cGTnS17vcKEjLUjfCbsA&nd=1&dlsi=f3b2245565464888"
               className="list-none w-[55px] font-bold font-fielder"
             >
-              <img
-                className="w-full h-full"
-                src="./images/spotify.png"
-                alt=""
-              />
+              <img className="w-full h-full" src="/images/spotify.png" alt="" />
             </Link>
             <Link
               target="_blank"
@@ -196,7 +184,7 @@ function Navbar() {
             >
               <img
                 className="w-full h-full"
-                src="./images/dextools.png"
+                src="/images/dextools.png"
                 alt=""
               />
             </Link>
@@ -207,7 +195,7 @@ function Navbar() {
             >
               <img
                 className="w-full h-full"
-                src="./images/dexscreener.svg"
+                src="/images/dexscreener.svg"
                 alt=""
               />
             </Link>
@@ -216,32 +204,28 @@ function Navbar() {
               href="https://x.com/itsanita_ai"
               className="list-none w-[55px] font-bold font-fielder"
             >
-              <img
-                className="w-full h-full"
-                src="./images/twitter.png"
-                alt=""
-              />
+              <img className="w-full h-full" src="/images/twitter.png" alt="" />
             </Link>
             {/* <Link
           href="https://www.instagram.com/itsanitaai/"
           target="_blank"
           className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
         >
-          <img src="./images/insta.svg" alt="" />
+          <img src="/images/insta.svg" alt="" />
         </Link>
         <Link
           href="https://x.com/itsanita_ai"
           target="_blank"
           className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
         >
-          <img src="./images/twitter.svg" alt="" />
+          <img src="/images/twitter.svg" alt="" />
         </Link>
         <Link
           href="https://www.youtube.com/@itsAnitaAI"
           target="_blank"
           className="list-none lg:w-[35px] lg:h-[35px] h-[25px] w-[25px] font-bold font-fielder"
         >
-          <img src="./images/youtube.svg" alt="" />
+          <img src="/images/youtube.svg" alt="" />
         </Link> */}
 
             <Link
