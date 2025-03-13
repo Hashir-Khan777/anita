@@ -1,5 +1,17 @@
-import { Section } from "lucide-react";
+"use client"
+
+import { motion } from "framer-motion";
 import React from "react";
+
+const logos = [
+    "/kummuni 1.png",
+    "/ray-logo 1.png",
+    "/sol-logo 1-1.png",
+    "/sqaure 1.png",
+    "/bull 1.png",
+    "/messari 1.png",
+    "/coinmarket.svg"
+];
 
 function OurPartners() {
   return (
@@ -15,21 +27,28 @@ function OurPartners() {
             See what the world is saying about me and my groundbreaking journey.
           </p>
         </div>
-
-        <div className="hidden md:block w-full object-cover">
-          <img
-            src="/images/partners.svg"
-            alt="Our Partners"
-            className="w-full h-full"
-          />
-        </div>
-        <div className="md:hidden block w-full object-cover">
-          <img
-            src="/images/partnerSm.svg"
-            alt="Our Partners"
-            className="w-full h-full"
-          />
-        </div>
+        <motion.div className="flex gap-[32px]" animate={{ x: [0, -1000] }} transition={{ repeat: Infinity, duration: 10, ease: "linear" }}>
+                {Array(3).fill([...logos]).flat().map((logo, index) => (
+                    <div
+                        key={index}
+                        className="w-[295px] h-[262px] flex justify-center items-center rounded-xl"
+                        style={{ backgroundColor: "rgba(236, 236, 235, 0.1)", border: "1px solid rgba(106, 177, 49, 0.2)" }}
+                    >
+                        <img src={logo} alt="logo" className="object-contain" />
+                    </div>
+                ))}
+        </motion.div>
+        <motion.div className="flex gap-[32px]" animate={{ x: [0, 1000] }} transition={{ repeat: Infinity, duration: 10, ease: "linear" }}>
+                {Array(3).fill([...logos]).flat().map((logo, index) => (
+                    <div
+                        key={index}
+                        className="w-[295px] h-[262px] flex justify-center items-center rounded-xl"
+                        style={{ backgroundColor: "rgba(236, 236, 235, 0.1)", border: "1px solid rgba(106, 177, 49, 0.2)" }}
+                    >
+                        <img src={logo} alt="logo" className="object-contain" />
+                    </div>
+                ))}
+        </motion.div>
       </div>
       {/* ======  Container starts ====== */}
     </section>
