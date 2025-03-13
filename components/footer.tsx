@@ -15,8 +15,8 @@ export function Footer() {
             <Link href="https://www.instagram.com/itsanitaai/" target="_blank" className="transition-transform hover:scale-110">
               <img src="./images/insta.svg" alt="" />
             </Link>
-            <Link href="https://x.com/itsanita_ai" target="_blank" className="transition-transform hover:scale-110">
-            <img src="./images/twitter.svg" alt="" />
+            <Link href="https://x.com/itsanita_ai" target="_blank" className="w-[60px] transition-transform hover:scale-110">
+            <img src="./images/twitter.png" alt="" className="w-full h-full" />
             </Link>
             <Link href="https://www.youtube.com/@itsAnitaAI" target="_blank" className="transition-transform hover:scale-110">
             <img src="./images/youtube.svg" alt="" />

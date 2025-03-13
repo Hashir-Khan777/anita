@@ -124,7 +124,7 @@ export function PodcastSection() {
             <span className="font-fielder lg:text-[60px]/[24px] text-[20px]/[20px]">&</span>
             <img src="/images/youtube-logo.svg" className="md:h-[55px] h-[28px] w-[92px]" alt="YouTube" />
           </p>
-          <p className="text-gray-300 max-w-md">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <p className="text-gray-300 max-w-md">A reader will be distracted by the readable content of a page when looking at its layout.</p>
           {/* <button className='capitalize lg:text-[20px] text-[12px] font-bold text-primary border-primary border-2 rounded-[8px] lg:h-[73px] h-[58px] w-[80%] md:w-[286px]'
             style={{ background: "linear-gradient(135deg,#0d1407 50%,#6AB131)" }}>
             Chat with Me
