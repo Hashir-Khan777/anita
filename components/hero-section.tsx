@@ -215,13 +215,10 @@ export function HeroSection() {
             <iframe
               width="100%"
               height="100%"
-              src="https://youtube.com/shorts/uWS6Tq4v4sY?si=A9QNqSpe2Vy-ovhW"
-              title="Anita AI Journey"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="aspect-video"
-            />
+              src="https://www.youtube.com/embed/uWS6Tq4v4sY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </div>
         </DialogContent>
       </Dialog>
