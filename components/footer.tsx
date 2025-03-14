@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto max-w-lg text-center space-y-12">
         {/* Social Links */}
         <div className="space-y-6">
-          <h3 className="lg:text-[30px]/[80px] text-[16px]/[24px] sm:text-3xl font-bold text-white">FOLLOW MY LIFESTYLE JOURNEY</h3>
+          <h3 className="lg:text-[30px]/[80px] text-[16px]/[24px] sm:text-3xl font-bold text-white">FOLLOW MY JOURNEY</h3>
           <div className="flex flex-row justify-center items-center gap-6">
             {/* <Link href="https://youtube.com" target="_blank" className="transition-transform hover:scale-110">
               <Youtube className="w-8 h-8 text-white" />
@@ -26,7 +26,7 @@ export function Footer() {
 
         {/* Contact Email */}
         <div className="space-y-2">
-          <p className="text-white text-lg font-fielder">EMAIL:</p>
+          <p className="text-white text-lg font-fielder">CONTACT</p>
           <p className="text-primary text-lg sm:text-xl font-bold font-fielder">SUPPORT@ITSANITA.COM</p>
         </div>
 

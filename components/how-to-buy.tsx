@@ -20,24 +20,24 @@ export function HowToBuySection() {
   const [videoOpen, setVideoOpen] = useState(false);
 
   return (
-    <section className="relative min-h-screen w-full flex flex-col hero">
+    <section className="relative min-h-screen w-full hero mb-7">
       <div className="flex-grow flex items-center justify-center px-4 sm:px-6 my-10">
         <div className="w-full flex flex-col justify-center md:flex-row md:justify-between gap-4">
           <div className="flex flex-col  w-full md:w-1/2 justify-center items-center md:items-start p-4 animate-fadeIn md:text-start text-center">
-            <h1 className="mb-4 text-3xl sm:text-4xl md:text-5xl lg:text-[80px]/[80px] font-bold leading-tight ">
+            <h1 className="mb-2 text-4xl sm:text-5xl font-bold leading-tight ">
               <span className="text-primary">
                 How to Buy <br />{" "}
               </span>{" "}
               <span className="text-white">$ANITA</span>
             </h1>
 
-            <p className="md:text-[28px]/[38px]">
+            {/* <p className="md:text-[28px]/[38px]">
               Blurring the Lines Between AI, Crypto,
               <br />& Real-Time Engagement
-            </p>
+            </p> */}
           </div>
 
-          <div className=" w-full md:w-1/2 p-4 mx-auto max-w-2xl overflow-hidden rounded-2xl bg-black/50 shadow-2xl animate-slideUp">
+          <div className=" w-full md:w-1/2 p-4 pb-0 mx-auto max-w-2xl overflow-hidden rounded-2xl bg-black/50 shadow-2xl animate-slideUp">
             <div className=" relative aspect-video w-full md:h-[800px] h-[491px]">
               <Image
                 src="/images/how-to-buy-video.svg"

@@ -19,7 +19,7 @@ function OurPartners() {
       {/* ======  Container starts ====== */}
       <div className="w-full flex flex-col gap-14 justify-center items-center">
         <div className="w-[90%] mx-auto flex flex-col gap-3 justify-center items-center text-center md:px-[100px]">
-          <h1 className="lg:text-[80px]/[80px] sm:text-[60px]/[60px] text-[20px]/[20px]">
+          <h1 className="mb-4 text-4xl sm:text-5xl font-bold">
             <span className="text-primary">Stronger together</span>
             <br /> our partners in innovaton
           </h1>

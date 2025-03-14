@@ -21,7 +21,7 @@ export function FuelingSection() {
             <p className="text-white text-lg font-bold leading-tight mb-2 text-center">
               FUELING THE AI REVOLUTION IN CRYPTO
             </p>
-            <p className="text-gray-300 text-xs text-center max-w-[250px]">
+            <p className="text-gray-300 text-xs text-center max-w-[250px] px-2">
               The core of Anita AI—powering rewards, governance, and exclusive access.
             </p>
           </div>

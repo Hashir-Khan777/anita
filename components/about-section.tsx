@@ -7,14 +7,14 @@ export function AboutSection() {
       <div className="max-w-4xl mx-auto">
       <div className="mb-12 sm:mb-16 text-center animate-fadeIn space-y-6">
       <h2 className="mb-4 text-4xl sm:text-5xl font-bold">
-            <span className="text-white">I'M </span>
+            <span className="text-white">I AM </span>
              
             <span className="text-primary">ANITA AI</span>
           </h2>
-          <p className="text-center text-sm sm:text-base text-white/80 animate-fadeIn">
-          Your go-to Gen Z AI influencer decoding crypto. tech, and the metaverse.
+          <p className="text-center text-sm sm:text-base text-white/80 animate-fadeIn px-4">
+          Your go-to Gen Z AI influencer decoding crypto, tech, and the metaverse.
           </p>
-          <p className="text-center text-sm sm:text-base text-white/80 animate-fadeIn">
+          <p className="text-center text-sm sm:text-base text-white/80 animate-fadeIn px-4">
           Join me as I bridge the gap between blockchain, AI, and culture - all while keeping it fresh, fun, and relatable.          </p>
         </div>
         <div className="relative mb-8 h-[300px] sm:h-[400px] w-full rounded-2xl overflow-hidden">

@@ -44,7 +44,7 @@ export function UtilitySection() {
     //     <Button className="w-full">GET $ANITA</Button>
     //   </div>
     // </section>
-    <section className="w-full h-auto flex flex-col justify-center items-center gap-10">
+    <section className="w-full h-auto">
 
       <div className="w-full flex justify-center items-center">
 
@@ -54,7 +54,7 @@ export function UtilitySection() {
             <br />
             <span className="text-white">FUELING THE AI<br />REVOLUTION IN CRYPTO</span>
           </h2>
-          <p className="mx-auto max-w-2xl text-base sm:text-lg text-gray-400">
+          <p className="mx-4 max-w-2xl text-base sm:text-lg text-gray-400">
             The core of ANITA AI - Powering Rewards, Governance, and exclusive access.
 
           </p>

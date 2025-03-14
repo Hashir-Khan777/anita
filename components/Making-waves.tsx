@@ -50,8 +50,8 @@ function MakingWaves() {
       {/* ======  Container starts ====== */}
       <div className="flex flex-col gap-14 justify-center items-center">
         <div className="md:w-[70%] w-[90%] mx-auto flex flex-col gap-3 justify-center items-center text-center">
-          <h1 className="lg:text-[80px]/[80px] sm:text-[60px]/[60px] text-[20px]/[20px]">
-            <span className="text-primary">$Anita</span> making waves
+          <h1 className="mb-2 text-4xl sm:text-5xl font-bold">
+            <span className="text-primary">$Anita</span> <span className="block">making waves</span>
           </h1>
           <p className="md:text-[28px]/[38px] text-[14px]/[20px]">
             From Decrypt to Cointelegraph, see what the world is saying about me

@@ -22,7 +22,7 @@ export function NewsletterForm() {
   };
 
   return (
-    <section className="w-full max-w-2xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
+    <section className="w-full max-w-2xl mx-auto px-4 sm:px-6 pt-16 sm:py-24">
       <h2 className="text-4xl sm:text-6xl font-bold text-white text-center mb-12 tracking-tight">
         NEVER MISS A BEAT
       </h2>

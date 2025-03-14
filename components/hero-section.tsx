@@ -150,9 +150,9 @@ export function HeroSection() {
               Space
             </span>
           </h1>
-          <p className="md:text-[28px]/[38px] text-[14px] text-gray-300">
+          {/* <p className="md:text-[28px]/[38px] text-[14px] text-gray-300">
             Blurring the Lines Between AI, Crypto, & Real-Time Engagement
-          </p>
+          </p> */}
           <Link href="https://voice.itsanita.com" target="_blank">
             <button className="md:text-[28px] text-[16px] bg-primary md:w-[225px] w-[180px] md:h-[73px] h-[50px] rounded-md shadow-lg font-fielder">
               Chat with me
@@ -227,11 +227,16 @@ export function HeroSection() {
         <p className="uppercase md:text-[50px]/[50px] text-[34px]/[34px] font-extrabold text-primary">
           Real-time <br /> Connection
         </p>
-        <img
+        <div style={{backgroundColor: "rgba(105, 177, 68, 1)"}} className="flex items-center px-3 py-[10px] rounded-xl gap-[67px]">
+          <Link className="w-[70px] md:w-auto" href="https://x.com/itsanita_ai" target="_blank"><img src="/twitterchat.png" /></Link>
+          <Link className="w-[70px] md:w-auto" href="https://t.me/itsanitaai" target="_blank"><img src="/telegramchat.png" /></Link>
+        </div>
+        <p>CHAT WITH ME</p>
+        {/* <img
           src="/images/herobuttons.svg"
           alt=""
           className="md:w-[296px] w-[157px]"
-        />
+        /> */}
       </div>
 
       {/* ===== Hero Section End here ===== */}

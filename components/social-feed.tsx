@@ -327,7 +327,7 @@ export function SocialFeed() {
           >Chat with me</button>
           </a>
         </Link> */}
-        <CustomButton link="https://voice.itsanita.com">Chat with me</CustomButton>
+        {/* <CustomButton link="https://voice.itsanita.com">Chat with me</CustomButton> */}
 
       {/* Bottom Navigation */}
       {/* <div className="fixed bottom-0 left-0 right-0 flex justify-around border-t border-gray-800 bg-black/80 py-3 backdrop-blur">
