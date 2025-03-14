@@ -45,7 +45,7 @@ const timelineItems = [
 
 export function EvolutionSection() {
   return (
-    <section className="relative bg-black px-4 sm:px-6 py-16 sm:py-24 evolution">
+    <section className="relative bg-black px-4 sm:px-6 py-0 md:py-24 evolution">
       
       <div className="container mx-auto max-w-4xl">
         {/* Header */}
